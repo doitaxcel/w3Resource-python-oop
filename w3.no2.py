@@ -42,14 +42,15 @@ while(True):
             print(wholeInfo)
             break
         elif choose == 2:
-            print(age)
-            break
+            print(f"{age} Years Old")
+            
+            if age == 1:
+                print(f"{age} year old")
         else:
             print("Invalid Input, input only '1' and '2'")
     
     except(ValueError):
         print("Invalid Input, input numbers only")
-
 
 
 
