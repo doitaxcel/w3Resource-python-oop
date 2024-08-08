@@ -1,0 +1,2 @@
+These Exercises are from --
+https://www.w3resource.com/python-exercises/oop/index.php
