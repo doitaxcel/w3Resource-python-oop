@@ -14,7 +14,7 @@ class Person:
         return  self.currentYear - self.birthYear
     # wholeInfo Method
     def wholeInfo(self):
-        return f"name is: {self.name} from: {self.country} and {self.Age()} years old"
+        return f"name is: '{self.name}' from: '{self.country}' and '{self.Age()}' years old"
         
 # Attribute Inputs
 name = str(input("Input name: "))
@@ -42,15 +42,19 @@ while(True):
             print(wholeInfo)
             break
         elif choose == 2:
-            print(f"{age} Years Old")
-            
             if age == 1:
                 print(f"{age} year old")
+                break
+            else:
+                print(f"{age} Years Old")
+                break
         else:
-            print("Invalid Input, input only '1' and '2'")
+            print("\n-----Invalid Input, input only '1' and '2'-----")
+            print("             ***TRY AGAIN*** \n")
     
     except(ValueError):
         print("Invalid Input, input numbers only")
+
 
 
 
