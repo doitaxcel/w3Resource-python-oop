@@ -13,7 +13,7 @@ class Circle:
     def calculate_perimeter(self):
         return 2 * self.pi * self.radius
 
-# const variable that holds the value of pi
+# constant variable that holds the value of pi
 pi = float(3.14);
 
 # input section of the value of radius
